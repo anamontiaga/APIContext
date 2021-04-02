@@ -1,13 +1,17 @@
 import './App.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { ToggleThemeProvider } from './contexts/themeToggleContext'
+import { HOME } from './router/paths'
+import { Home } from './screens/Home'
 
 function App() {
   return (
     <ToggleThemeProvider>
-      <div className="App">
-        Hola API Context
-
-    </div>
+      <Router>
+        <Switch>
+          <Route path={HOME} component={Home} exact />
+        </Switch>
+      </Router>
     </ToggleThemeProvider>
   );
 }
