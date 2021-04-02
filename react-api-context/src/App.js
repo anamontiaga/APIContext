@@ -1,11 +1,14 @@
 import './App.css';
+import { ToggleThemeProvider } from './contexts/themeToggleContext'
 
 function App() {
   return (
-    <div className="App">
-      Hola API Context
+    <ToggleThemeProvider>
+      <div className="App">
+        Hola API Context
 
     </div>
+    </ToggleThemeProvider>
   );
 }
 
