@@ -4,6 +4,6 @@ import { SwitchThemeButton } from 'components/SwitchThemeButton'
 
 export const Header = () =>
   <ContainerEl>
-    <BrandEl>My Library Manager</BrandEl>
+    <BrandEl>API Context</BrandEl>
     <SwitchThemeButton />
   </ContainerEl>

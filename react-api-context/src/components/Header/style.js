@@ -22,7 +22,6 @@ export const ContainerEl = styled.div`
 export const BrandEl = styled.p`
   color: ${Colors.yellow};
   font-family: ${Fonts.body.semiBold};
-  font-size: 16px;
+  font-size: 20px;
   margin: 0;
-  text-transform: uppercase;
 `
